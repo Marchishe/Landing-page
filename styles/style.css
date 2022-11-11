@@ -1,23 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   margin: 0;
 }
 html {
   box-sizing: border-box;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-.wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  min-height: 100vh;
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -31,8 +22,9 @@ img {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1720px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header {
@@ -41,15 +33,13 @@ img {
 }
 
 .header-wrap {
+  max-width: 1720px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  padding: 79px 0 0;
+  padding: 4rem;
 }
 
 .logo {
-  position: absolute;
-  top: 9.5%;
-  left: 14%;
   transition: 0.5s;
 }
 .logo:hover {
@@ -167,14 +157,11 @@ img {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  padding: 166px 0 146px 0;
+  padding: 10rem 0;
 }
-
 .image-info {
-  position: absolute;
-  left: 10%;
+  margin: 0 10rem;
 }
-
 .info-item {
   width: 50%;
 }
@@ -599,6 +586,7 @@ img {
     text-align: center;
   }
   .col-img {
+    width: 30rem;
     margin-top: 25px;
   }
   .media h3 {
