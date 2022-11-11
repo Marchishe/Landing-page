@@ -355,7 +355,7 @@ img {
   transform: translate(-50%, -50%);
   width: 100px;
   height: 58px;
-  background: url(images\Eye.png);
+  background-image: url(/images/Eye.png);
   background-position: center;
   background-size: cover;
   opacity: 0;
