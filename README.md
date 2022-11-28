@@ -1,1 +1,1 @@
-(https://marchishe.github.io/Landing-page/build/)
+(https://marchishe.github.io/Landing-page)
